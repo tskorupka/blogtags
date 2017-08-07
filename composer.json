@@ -1,0 +1,24 @@
+{
+    "name": "bedard/blogtags",
+    "type": "october-plugin",
+    "description": "Bedard Blog Tags",
+    "keywords": ["bedard", "october-plugin", "plugin", "blogtags", "blog", "tags", "extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Bedard"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bedard\\BlogTags\\": ""
+        }
+    },
+    "extra": {
+      "installer-name": "blogtags",
+      "branch-alias": { "dev-master": "1.0-dev" }
+    }
+}
